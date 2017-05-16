@@ -12,6 +12,11 @@
 		576FE4871EC9447400D7845B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4851EC9447400D7845B /* Main.storyboard */; };
 		576FE4891EC9447400D7845B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4881EC9447400D7845B /* Assets.xcassets */; };
 		576FE48C1EC9447400D7845B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576FE48A1EC9447400D7845B /* LaunchScreen.storyboard */; };
+		576FE4941EC94B5D00D7845B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 576FE4931EC94B5D00D7845B /* README.md */; };
+		576FE4961EC94BFD00D7845B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4951EC94BFD00D7845B /* .gitignore */; };
+		576FE49A1EC98C0900D7845B /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4971EC98C0900D7845B /* backmusic.mp3 */; };
+		576FE49B1EC98C0900D7845B /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4981EC98C0900D7845B /* cymbal.mp3 */; };
+		576FE49C1EC98C0900D7845B /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576FE4991EC98C0900D7845B /* guitar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		576FE4881EC9447400D7845B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576FE48B1EC9447400D7845B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		576FE48D1EC9447400D7845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576FE4931EC94B5D00D7845B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		576FE4951EC94BFD00D7845B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		576FE4971EC98C0900D7845B /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
+		576FE4981EC98C0900D7845B /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cymbal.mp3; sourceTree = "<group>"; };
+		576FE4991EC98C0900D7845B /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,8 @@
 		576FE4751EC9447400D7845B = {
 			isa = PBXGroup;
 			children = (
+				576FE4951EC94BFD00D7845B /* .gitignore */,
+				576FE4931EC94B5D00D7845B /* README.md */,
 				576FE4801EC9447400D7845B /* MyMusic */,
 				576FE47F1EC9447400D7845B /* Products */,
 			);
@@ -60,6 +72,9 @@
 				576FE4881EC9447400D7845B /* Assets.xcassets */,
 				576FE48A1EC9447400D7845B /* LaunchScreen.storyboard */,
 				576FE48D1EC9447400D7845B /* Info.plist */,
+				576FE4971EC98C0900D7845B /* backmusic.mp3 */,
+				576FE4981EC98C0900D7845B /* cymbal.mp3 */,
+				576FE4991EC98C0900D7845B /* guitar.mp3 */,
 			);
 			path = MyMusic;
 			sourceTree = "<group>";
@@ -124,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576FE49B1EC98C0900D7845B /* cymbal.mp3 in Resources */,
+				576FE4961EC94BFD00D7845B /* .gitignore in Resources */,
 				576FE48C1EC9447400D7845B /* LaunchScreen.storyboard in Resources */,
 				576FE4891EC9447400D7845B /* Assets.xcassets in Resources */,
+				576FE49C1EC98C0900D7845B /* guitar.mp3 in Resources */,
 				576FE4871EC9447400D7845B /* Main.storyboard in Resources */,
+				576FE49A1EC98C0900D7845B /* backmusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576FE4941EC94B5D00D7845B /* README.md in Sources */,
 				576FE4841EC9447400D7845B /* ViewController.swift in Sources */,
 				576FE4821EC9447400D7845B /* AppDelegate.swift in Sources */,
 			);
